@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Nerko+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Sansita+Swashed:wght@600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <img src="./images/coffee_cup.png" alt="coffee cup logo" id="top">
+    <h3>Coffee Junkie</h3>
+    <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="numbers.html">Numbers</a></li>
+        <li><a href="contact.html">Contact</a></li>
+    </ul>
+    <img src="./images/morning_coffee.jpg" width="100%" height="600px" alt="big background">
+    <br>
+    <h1>Contact Us</h1>
+    <br>
+    <form action="">
+        <!-- name -->
+        <label for="name">Name</label>
+        <input type="text" name="name" id="name">
+        <br>
+        <br>
+        <!-- email -->
+        <label for="email">Email</label>
+        <input type="text" name="email" id="email">
+        <br>
+        <br>
+        <!-- description -->
+        <p>Description</p>
+        <textarea name="description" id="" cols="30" rows="10"
+            placeholder="Your Description">
+        </textarea>
+        <br>
+        <input type="submit" value="Submit">
+        </form>
+    <br>
+    <br>
+    <form action="">
+        <label for="cafes">Your favorite coffee:</label>
+        
+        <select name="cafes" id="coffees">
+            <option value="espresso">Espresso</option>
+            <option value="frenchVanilla">French Vanilla</option>
+            <option value="colombian">Colombian</option>
+        </select>
+        <br>
+        <br>
+        <label for="email">Your email address:</label>
+        
+        <input type="email" id="email" pattern=".+@globex.com" size="30" required>
+        <br>
+        <br>
+        <input type="submit" value="Submit">
+    </form>
+    <br>
+    <br>
+    Copyright &copy;2020
+    <br>
+    <a href="#top">Back to top</a>
+</body>
+
+</html>
